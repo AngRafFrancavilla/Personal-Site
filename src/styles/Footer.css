@@ -1,0 +1,21 @@
+.footer {
+  background: var(--gradient-1);
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer a {
+  color: white;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}

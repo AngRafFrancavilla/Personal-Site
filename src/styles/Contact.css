@@ -1,0 +1,14 @@
+.contact {
+  background: linear-gradient(270deg,#764ba2,#f5576c,  #667eea, #f093fb );
+  }
+  
+  .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
