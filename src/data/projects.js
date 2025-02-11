@@ -17,10 +17,10 @@ export const projects = [
     {
       title: "InstaFake",
       description: "Questo progetto è un'app mobile sviluppata con React Native, che replica le funzionalità di base di Instagram. L'obiettivo è creare un'esperienza simile a quella di Instagram, includendo le caratteristiche principali del social network, come la visualizzazione del feed di immagini, l'interazione tramite like e commenti.",
-      url: "https://github.com/tuoprogetto2"
+      url: "https://github.com/AngRafFrancavilla/InstaFake"
     },
     {
-      title: "Progetto 2",
+      title: "Personal-Site",
       description: "Ho creato un portafoglio in React, completamente responsive, che permette di esplorare le mie esperienze lavorative, scoprire i miei progetti e scaricare facilmente il mio CV. Offre un design moderno e un'esperienza fluida su qualsiasi dispositivo.(Responsive)",
       url: "https://github.com/AngRafFrancavilla/Personal-Site"
     },

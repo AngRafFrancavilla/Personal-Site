@@ -12,3 +12,13 @@
     margin: 1rem 0;
     font-size: 1.1rem;
   }
+  .contact-info a {
+    color: #1d1a1a; 
+    text-decoration: underline; 
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #f093fb;
+  }
+  

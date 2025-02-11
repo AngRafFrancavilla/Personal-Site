@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="container">
-        <h1>Ciao, sono Angelo Raffaele Francavilla</h1>
-        <p>Software Engineer · Sviluppatore Web</p>
+      <h1><strong>Ciao, sono Angelo Raffaele Francavilla</strong></h1>
+        <p><strong>Software Engineer · Sviluppatore Web</strong></p>
         <a href="#contact" className="cta-button">Contattami</a>
       </div>
     </section>
