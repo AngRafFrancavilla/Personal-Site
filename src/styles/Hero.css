@@ -1,4 +1,4 @@
-@keyframes gradientAnimation {
+/*@keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
@@ -16,7 +16,7 @@
     align-items: center;
     text-align: center;
     padding-top: 80px;
-   /* background: var(--gradient-1);*/
+ 
   }
   
   .hero h1 {
@@ -40,4 +40,47 @@
     .hero p {
       font-size: 1.2rem;
     }
+  } */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
+  
+  .hero {
+    background: linear-gradient(270deg, #667eea, #4363f0, #233f9b, #57c3f5);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-weight: 700;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+    }
+  }
+  

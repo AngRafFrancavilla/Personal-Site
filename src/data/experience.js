@@ -1,7 +1,7 @@
 export const experiences = [
     {
       nomeAzienda: "Links Management and Technology",
-      ruolo: "Tirocinante Sviluppatore Back-End",
+      ruolo: "Software Engineer Internship",
       data: "2025 - Presente",
       descrizione: "Ho iniziato il tirocinio presso un'azienda, dove sono affiancato da un tutor che mi guiderà e contribuirà ad arricchire le mie competenze nella programmazione."
     },
@@ -9,7 +9,7 @@ export const experiences = [
       nomeAzienda: "Modus Operandi",
       ruolo: "Operatore CATI",
       data: "2024 - Presente",
-      descrizione: "Attualmente Lavoro come operatore telefonico in un call center, occupandomi di effettuare chiamate per condurre indagini e sondaggi"
+      descrizione: "Attualmente Lavoro come operatore telefonico in una società di comunicazioni, occupandomi di effettuare chiamate per condurre indagini e sondaggi"
     },
     {
       nomeAzienda: "Pizzeria Vesuvio",
@@ -19,8 +19,8 @@ export const experiences = [
     },
     {
       nomeAzienda: "Nuvitè S.r.l.",
-      ruolo: "Stagista",
+      ruolo: "Software Engineer Internship",
       data: "2023 - 2024",
-      descrizione: "Ho svolto un'esperienza di 3/4 mesi in una piccola software house, dove ho approfondito la teoria sulla creazione di un gestionale per grandi magazzini e vissuto concretamente cosa significa lavorare come programmatore in un contesto aziendale."
+      descrizione: "Ho svolto un'esperienza di 4 mesi in una piccola software house, dove ho approfondito la teoria sulla creazione di un gestionale per grandi magazzini e vissuto concretamente cosa significa lavorare come programmatore in un contesto aziendale."
     }
   ];

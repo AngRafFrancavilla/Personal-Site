@@ -1,4 +1,4 @@
-.contact {
+/*.contact {
   background: linear-gradient(270deg,#764ba2,#f5576c,  #667eea, #f093fb );
   }
   
@@ -21,4 +21,39 @@
   .contact-info a:hover {
     color: #f093fb;
   }
+  */
+  .contact {
+    background: #b9e5f5;
+    padding: 4rem 0;
+  }
   
+  .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  
+  .contact-info a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    font-weight: 700;
+  }
+  
+  .contact-info a:hover {
+    color: var(--accent-color);
+  }
+  .contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #263b87; 
+    margin-bottom: 2rem;
+    position: relative;
+  }

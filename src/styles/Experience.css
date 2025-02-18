@@ -1,4 +1,4 @@
-.timeline {
+/*.timeline {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
@@ -56,4 +56,89 @@
       margin-right: 20px; 
     }
   }
+  */
+/* Sezione Experience */
+.experience {
+  background: var(--light-bg);
+  padding: 4rem 0;
+}
+
+/* Titolo della sezione */
+.experience h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #263b87; 
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.experience h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--secondary-color);
+  margin: 0.5rem auto 0;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: 100%;
+  background: var(--secondary-color);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 1.5rem;
+  background: var(--gradient-2);
+  margin-bottom: 3rem;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50.55%;
+}
+
+/* Stili per ruolo e data */
+.ruolo {
+  color: #233f9b;
+  font-weight: 700;
+}
+
+.data {
+  color: #233f9b;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+/* Responsive per dispositivi mobili */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px;
+  }
   
+  .timeline-item {
+    width: calc(100% - 40px);
+    left: 0 !important;
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+}
