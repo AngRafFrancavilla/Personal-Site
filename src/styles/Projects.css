@@ -1,67 +1,3 @@
-/*.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  background: var(--gradient-1);
-  padding: 1.5rem;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  height: 100%; 
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-}
-
-.project-card h3 {
-  margin-bottom: 0.5rem;
-  color: white;
-}
-
-.project-card p {
-  margin-bottom: 1rem;
-  color: rgba(255,255,255,0.9);
-  flex-grow: 1; 
-}
-
-.project-card a {
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid white;
-  transition: all 0.3s ease;
-  padding: 0.5rem 0;
-  margin-top: auto;
-  width: fit-content;
-}
-
-.project-card a:hover {
-  opacity: 0.8;
-  border-bottom-color: transparent;
-}
-
-.github-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.github-link::after {
-  content: "→";
-  transition: transform 0.3s ease;
-}
-
-.github-link:hover::after {
-  transform: translateX(3px);
-}*/
 .projects {
   background: var(--light-bg);
   padding: 4rem 0;
@@ -97,6 +33,9 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
+  /* Aggiunti per il layout flex */
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card h3 {
@@ -108,6 +47,8 @@
 .project-card p {
   margin-bottom: 1rem;
   color: var(--text-color);
+  /* Consente al paragrafo di espandersi e spingere il pulsante in fondo */
+  flex-grow: 1;
 }
 
 .github-link {
@@ -116,6 +57,12 @@
   font-size: 1rem;
   transition: color 0.3s ease;
   font-weight: 700;
+  /* Posiziona il link sempre in fondo alla card */
+  margin-top: auto;
+  /* Allinea l'icona e il testo */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .github-link:hover {
