@@ -15,19 +15,19 @@ export const projects = [
       url: "https://github.com/AngRafFrancavilla/GestioneDipendenti"
     },
     {
-      title: "InstaFake",
-      description: "Questo progetto è un'app mobile sviluppata con React Native, che replica le funzionalità di base di Instagram. L'obiettivo è creare un'esperienza simile a quella di Instagram, includendo le caratteristiche principali del social network, come la visualizzazione del feed di immagini, l'interazione tramite like e commenti.",
-      url: "https://github.com/AngRafFrancavilla/InstaFake"
+      title: "MS1-BackEnd",
+      description: "MS1 è il servizio principale. Ho utilizzato Spring Boot con Spring Security per gestire l’autenticazione tramite JWT, Spring Data JPA e MySQL per la persistenza dei dati.I ruoli sono USER e ADMIN. Gli endpoint principali includono: registrazione e login, CRUD dei titoli con paginazione e filtri, creazione recensioni, approvazione e verifica. Le tabelle sono relazionate tra loro, in particolare gli utenti e i titoli sono collegati alle recensioni. La paginazione è gestita tramite Pageable di Spring",
+      url: "https://github.com/AngRafFrancavilla/MS1_Back-End"
     },
     {
-      title: "Personal-Site",
-      description: "Ho creato un portafoglio in React, completamente responsive, che permette di esplorare le mie esperienze lavorative, scoprire i miei progetti e scaricare facilmente il mio CV. Offre un design moderno e un'esperienza fluida su qualsiasi dispositivo.(Responsive)",
-      url: "https://github.com/AngRafFrancavilla/Personal-Site"
+      title: "MS2-BackEnd",
+      description: "MS2 è stato una parte aggiuntiva che ho scelto di realizzare per completare l’architettura richiesta. È sviluppato in Node.js con Express e MongoDB tramite Mongoose. La caratteristica principale è un cron job che ogni minuto interroga MS1, legge tutte le recensioni approvate, calcola la media dei voti e il numero di recensioni per ogni titolo e salva tutto su MongoDB in modalità upsert.Mongo è ideale per questo tipo di aggregazioni leggere e aggiornamenti frequenti perché è molto flessibile e veloce.",
+      url: "https://github.com/AngRafFrancavilla/MS2_Back-End"
     },
     {
-      title: "Varie Esercitazioni",
-      description: "Inserisco diversi mini programmi scritti in Java, utilizzati per esercitarmi e comprendere meglio la logica del linguaggio.",
-      url: "https://github.com/AngRafFrancavilla/Esercitazione"
+      title: "MSC-FrontEnd",
+      description: "Il frontend è stato sviluppato in Angular 16 standalone, quindi senza moduli, con componenti più leggeri e moderni.Ho realizzato diverse sezioni: la homepage, la lista dei titoli con paginazione e filtri, la pagina dei rating con media + recensioni pubbliche, login e registrazione, e infine un’area admin per la moderazione. La comunicazione avviene tramite HttpClient e l’autenticazione usa un interceptor che aggiunge automaticamente il JWT nelle chiamate protette.Ho usato sessionStorage per gestire la sessione utente.",
+      url: "https://github.com/AngRafFrancavilla/MSC_Front-End"
     },
 
   ];
